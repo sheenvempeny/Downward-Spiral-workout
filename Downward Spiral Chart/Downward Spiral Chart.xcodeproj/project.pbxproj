@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1195B33C7E23ECAC15BF3475 /* Pods_Downward_Spiral_Chart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7868DB6F6FF89B33B25047FA /* Pods_Downward_Spiral_Chart.framework */; };
+		303183961EA2A0A80057F97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183951EA2A0A80057F97C /* AppDelegate.swift */; };
+		303183981EA2A0A80057F97C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183971EA2A0A80057F97C /* ViewController.swift */; };
+		3031839B1EA2A0A80057F97C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303183991EA2A0A80057F97C /* Main.storyboard */; };
+		3031839D1EA2A0A80057F97C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3031839C1EA2A0A80057F97C /* Assets.xcassets */; };
+		303183A01EA2A0A80057F97C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3031839E1EA2A0A80057F97C /* LaunchScreen.storyboard */; };
+		303183A81EA2A19C0057F97C /* DownwardSpiral.json in Resources */ = {isa = PBXBuildFile; fileRef = 303183A71EA2A19C0057F97C /* DownwardSpiral.json */; };
+		303183AA1EA2A2270057F97C /* DownwardSpiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183A91EA2A2270057F97C /* DownwardSpiral.swift */; };
+		303183B21EA2BCDC0057F97C /* Downward_Spiral_ChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183B11EA2BCDC0057F97C /* Downward_Spiral_ChartTests.swift */; };
+		303183B91EA2BD0A0057F97C /* DownwardSpiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183A91EA2A2270057F97C /* DownwardSpiral.swift */; };
+		303183BA1EA2BD0E0057F97C /* DownwardSpiral.json in Resources */ = {isa = PBXBuildFile; fileRef = 303183A71EA2A19C0057F97C /* DownwardSpiral.json */; };
+		303183BC1EA2D8DC0057F97C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 303183BB1EA2D8DC0057F97C /* Podfile */; };
+		303183C21EA2E3540057F97C /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183C11EA2E3540057F97C /* ChartController.swift */; };
+		FED855824EEB096A517B5BF6 /* Pods_Downward_Spiral_ChartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297364AB2C135487137A89A2 /* Pods_Downward_Spiral_ChartTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		303183B41EA2BCDD0057F97C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3031838A1EA2A0A80057F97C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 303183911EA2A0A80057F97C;
+			remoteInfo = "Downward Spiral Chart";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		297364AB2C135487137A89A2 /* Pods_Downward_Spiral_ChartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Downward_Spiral_ChartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303183921EA2A0A80057F97C /* Downward Spiral Chart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Downward Spiral Chart.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303183951EA2A0A80057F97C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303183971EA2A0A80057F97C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3031839A1EA2A0A80057F97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3031839C1EA2A0A80057F97C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3031839F1EA2A0A80057F97C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		303183A11EA2A0A80057F97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303183A71EA2A19C0057F97C /* DownwardSpiral.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DownwardSpiral.json; sourceTree = "<group>"; };
+		303183A91EA2A2270057F97C /* DownwardSpiral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownwardSpiral.swift; sourceTree = "<group>"; };
+		303183AF1EA2BCDC0057F97C /* Downward Spiral ChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Downward Spiral ChartTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		303183B11EA2BCDC0057F97C /* Downward_Spiral_ChartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downward_Spiral_ChartTests.swift; sourceTree = "<group>"; };
+		303183B31EA2BCDC0057F97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		303183BB1EA2D8DC0057F97C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		303183BD1EA2DA810057F97C /* Downward Spiral Chart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Downward Spiral Chart-Bridging-Header.h"; sourceTree = "<group>"; };
+		303183C11EA2E3540057F97C /* ChartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartController.swift; sourceTree = "<group>"; };
+		513925DF9CD66D605793B082 /* Pods-Downward Spiral Chart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Downward Spiral Chart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart.debug.xcconfig"; sourceTree = "<group>"; };
+		7868DB6F6FF89B33B25047FA /* Pods_Downward_Spiral_Chart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Downward_Spiral_Chart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5A22D34F2CC757FB3EDBE9 /* Pods-Downward Spiral ChartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Downward Spiral ChartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A89B8FB4A1D5C26B1D710D00 /* Pods-Downward Spiral ChartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Downward Spiral ChartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests.release.xcconfig"; sourceTree = "<group>"; };
+		AD4A53B3DC88BC909950949A /* Pods-Downward Spiral Chart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Downward Spiral Chart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3031838F1EA2A0A80057F97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1195B33C7E23ECAC15BF3475 /* Pods_Downward_Spiral_Chart.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303183AC1EA2BCDC0057F97C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED855824EEB096A517B5BF6 /* Pods_Downward_Spiral_ChartTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303183891EA2A0A80057F97C = {
+			isa = PBXGroup;
+			children = (
+				303183BB1EA2D8DC0057F97C /* Podfile */,
+				303183941EA2A0A80057F97C /* Downward Spiral Chart */,
+				303183B01EA2BCDC0057F97C /* Downward Spiral ChartTests */,
+				303183931EA2A0A80057F97C /* Products */,
+				76246273340478A5ABF04221 /* Pods */,
+				7B6CE5CAB636EC8B0F5F196D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		303183931EA2A0A80057F97C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303183921EA2A0A80057F97C /* Downward Spiral Chart.app */,
+				303183AF1EA2BCDC0057F97C /* Downward Spiral ChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303183941EA2A0A80057F97C /* Downward Spiral Chart */ = {
+			isa = PBXGroup;
+			children = (
+				303183951EA2A0A80057F97C /* AppDelegate.swift */,
+				303183971EA2A0A80057F97C /* ViewController.swift */,
+				303183C11EA2E3540057F97C /* ChartController.swift */,
+				303183A91EA2A2270057F97C /* DownwardSpiral.swift */,
+				303183A71EA2A19C0057F97C /* DownwardSpiral.json */,
+				303183991EA2A0A80057F97C /* Main.storyboard */,
+				3031839C1EA2A0A80057F97C /* Assets.xcassets */,
+				3031839E1EA2A0A80057F97C /* LaunchScreen.storyboard */,
+				303183A11EA2A0A80057F97C /* Info.plist */,
+				303183BD1EA2DA810057F97C /* Downward Spiral Chart-Bridging-Header.h */,
+			);
+			path = "Downward Spiral Chart";
+			sourceTree = "<group>";
+		};
+		303183B01EA2BCDC0057F97C /* Downward Spiral ChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				303183B11EA2BCDC0057F97C /* Downward_Spiral_ChartTests.swift */,
+				303183B31EA2BCDC0057F97C /* Info.plist */,
+			);
+			path = "Downward Spiral ChartTests";
+			sourceTree = "<group>";
+		};
+		76246273340478A5ABF04221 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				513925DF9CD66D605793B082 /* Pods-Downward Spiral Chart.debug.xcconfig */,
+				AD4A53B3DC88BC909950949A /* Pods-Downward Spiral Chart.release.xcconfig */,
+				9D5A22D34F2CC757FB3EDBE9 /* Pods-Downward Spiral ChartTests.debug.xcconfig */,
+				A89B8FB4A1D5C26B1D710D00 /* Pods-Downward Spiral ChartTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7B6CE5CAB636EC8B0F5F196D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7868DB6F6FF89B33B25047FA /* Pods_Downward_Spiral_Chart.framework */,
+				297364AB2C135487137A89A2 /* Pods_Downward_Spiral_ChartTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303183911EA2A0A80057F97C /* Downward Spiral Chart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303183A41EA2A0A80057F97C /* Build configuration list for PBXNativeTarget "Downward Spiral Chart" */;
+			buildPhases = (
+				8DFDF79174D6EF7053F3B84E /* [CP] Check Pods Manifest.lock */,
+				3031838E1EA2A0A80057F97C /* Sources */,
+				3031838F1EA2A0A80057F97C /* Frameworks */,
+				303183901EA2A0A80057F97C /* Resources */,
+				9D64E7C5E9A01061A48E56AE /* [CP] Embed Pods Frameworks */,
+				33054789415371DEE4EA51C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Downward Spiral Chart";
+			productName = "Downward Spiral Chart";
+			productReference = 303183921EA2A0A80057F97C /* Downward Spiral Chart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		303183AE1EA2BCDC0057F97C /* Downward Spiral ChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303183B61EA2BCDD0057F97C /* Build configuration list for PBXNativeTarget "Downward Spiral ChartTests" */;
+			buildPhases = (
+				4E2504463D77113968AF9CDF /* [CP] Check Pods Manifest.lock */,
+				303183AB1EA2BCDC0057F97C /* Sources */,
+				303183AC1EA2BCDC0057F97C /* Frameworks */,
+				303183AD1EA2BCDC0057F97C /* Resources */,
+				52C2C866A00AEBFDB57B6EE1 /* [CP] Embed Pods Frameworks */,
+				7A027661CE020EDC160D5E4E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303183B51EA2BCDD0057F97C /* PBXTargetDependency */,
+			);
+			name = "Downward Spiral ChartTests";
+			productName = "Downward Spiral ChartTests";
+			productReference = 303183AF1EA2BCDC0057F97C /* Downward Spiral ChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3031838A1EA2A0A80057F97C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "sheen vempeny";
+				TargetAttributes = {
+					303183911EA2A0A80057F97C = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					303183AE1EA2BCDC0057F97C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 303183911EA2A0A80057F97C;
+					};
+				};
+			};
+			buildConfigurationList = 3031838D1EA2A0A80057F97C /* Build configuration list for PBXProject "Downward Spiral Chart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303183891EA2A0A80057F97C;
+			productRefGroup = 303183931EA2A0A80057F97C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303183911EA2A0A80057F97C /* Downward Spiral Chart */,
+				303183AE1EA2BCDC0057F97C /* Downward Spiral ChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303183901EA2A0A80057F97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303183BC1EA2D8DC0057F97C /* Podfile in Resources */,
+				303183A81EA2A19C0057F97C /* DownwardSpiral.json in Resources */,
+				303183A01EA2A0A80057F97C /* LaunchScreen.storyboard in Resources */,
+				3031839D1EA2A0A80057F97C /* Assets.xcassets in Resources */,
+				3031839B1EA2A0A80057F97C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303183AD1EA2BCDC0057F97C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303183BA1EA2BD0E0057F97C /* DownwardSpiral.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33054789415371DEE4EA51C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E2504463D77113968AF9CDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		52C2C866A00AEBFDB57B6EE1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A027661CE020EDC160D5E4E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DFDF79174D6EF7053F3B84E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D64E7C5E9A01061A48E56AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3031838E1EA2A0A80057F97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303183AA1EA2A2270057F97C /* DownwardSpiral.swift in Sources */,
+				303183981EA2A0A80057F97C /* ViewController.swift in Sources */,
+				303183C21EA2E3540057F97C /* ChartController.swift in Sources */,
+				303183961EA2A0A80057F97C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303183AB1EA2BCDC0057F97C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303183B91EA2BD0A0057F97C /* DownwardSpiral.swift in Sources */,
+				303183B21EA2BCDC0057F97C /* Downward_Spiral_ChartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303183B51EA2BCDD0057F97C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 303183911EA2A0A80057F97C /* Downward Spiral Chart */;
+			targetProxy = 303183B41EA2BCDD0057F97C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		303183991EA2A0A80057F97C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3031839A1EA2A0A80057F97C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3031839E1EA2A0A80057F97C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3031839F1EA2A0A80057F97C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303183A21EA2A0A80057F97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303183A31EA2A0A80057F97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303183A51EA2A0A80057F97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513925DF9CD66D605793B082 /* Pods-Downward Spiral Chart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Downward Spiral Chart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheen.Downward-Spiral-Chart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Downward Spiral Chart/Downward Spiral Chart-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		303183A61EA2A0A80057F97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD4A53B3DC88BC909950949A /* Pods-Downward Spiral Chart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Downward Spiral Chart/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheen.Downward-Spiral-Chart";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Downward Spiral Chart/Downward Spiral Chart-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		303183B71EA2BCDD0057F97C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5A22D34F2CC757FB3EDBE9 /* Pods-Downward Spiral ChartTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Downward Spiral ChartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheen.Downward-Spiral-ChartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Downward Spiral Chart.app/Downward Spiral Chart";
+			};
+			name = Debug;
+		};
+		303183B81EA2BCDD0057F97C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89B8FB4A1D5C26B1D710D00 /* Pods-Downward Spiral ChartTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Downward Spiral ChartTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sheen.Downward-Spiral-ChartTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Downward Spiral Chart.app/Downward Spiral Chart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3031838D1EA2A0A80057F97C /* Build configuration list for PBXProject "Downward Spiral Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303183A21EA2A0A80057F97C /* Debug */,
+				303183A31EA2A0A80057F97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303183A41EA2A0A80057F97C /* Build configuration list for PBXNativeTarget "Downward Spiral Chart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303183A51EA2A0A80057F97C /* Debug */,
+				303183A61EA2A0A80057F97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303183B61EA2BCDD0057F97C /* Build configuration list for PBXNativeTarget "Downward Spiral ChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303183B71EA2BCDD0057F97C /* Debug */,
+				303183B81EA2BCDD0057F97C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3031838A1EA2A0A80057F97C /* Project object */;
+}
