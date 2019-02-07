@@ -20,33 +20,19 @@ class Downward_Spiral_ChartTests: XCTestCase {
         super.tearDown()
     }
     
-    func testSpiral(){
-        
-        let spiralDict : [String:Any] = ["type": "target","start": 231,"ftp": 0.8]
-        
-        do{
-            
-            let newSpiral:DownwardSpiral =  try DownwardSpiral.init(json:spiralDict )
-            
-            assert(newSpiral != nil, "Json structure changed")
-            
+    func testFetchSpiral(){
+        let fetcher: DataFetcher = DataFetcher()
+        fetcher.fetchSpirals { (collection: SpiralCollection?) in
+           assert( collection != nil , "Problem in downloading sprial")
+            guard let sprials = collection?.spirals else {
+                assertionFailure("No Spirals available")
+                return
+            }
+            assert( sprials.count > 0, "No Spirals available")
         }
-        catch{
         
-            assertionFailure("Json structure changed")
-        }
-    
-        
-
-    }
-    
-    func testJson(){
-        
-        let spirals:[DownwardSpiral]? = JsonParser.spirals(fileName: "DownwardSpiral")
-        assert((spirals?.count)! > 0, "Problem in json parser")
         
     }
-    
     
     func testExample() {
         // This is an example of a functional test case.

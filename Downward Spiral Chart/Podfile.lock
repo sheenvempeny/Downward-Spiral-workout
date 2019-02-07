@@ -1,14 +1,16 @@
 PODS:
-  - Charts (3.0.1):
-    - Charts/Core (= 3.0.1)
-  - Charts/Core (3.0.1)
+  - TEAChart (1.0.0)
 
 DEPENDENCIES:
-  - Charts
+  - TEAChart
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TEAChart
 
 SPEC CHECKSUMS:
-  Charts: 0e84f4418e87dad6a9edde221fba37ebb51d3ba7
+  TEAChart: 4bfb34461d9da2672d3e63ccf1a486e5bb4bceb7
 
-PODFILE CHECKSUM: dc5b60e8b15f943aede18b005bd0ee08b5205d2e
+PODFILE CHECKSUM: bef74b8dc917db6b819ebbca2a71bca566c8a7c1
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3

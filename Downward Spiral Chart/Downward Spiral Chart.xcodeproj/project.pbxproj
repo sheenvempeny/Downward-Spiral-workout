@@ -19,7 +19,8 @@
 		303183B91EA2BD0A0057F97C /* DownwardSpiral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183A91EA2A2270057F97C /* DownwardSpiral.swift */; };
 		303183BA1EA2BD0E0057F97C /* DownwardSpiral.json in Resources */ = {isa = PBXBuildFile; fileRef = 303183A71EA2A19C0057F97C /* DownwardSpiral.json */; };
 		303183BC1EA2D8DC0057F97C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 303183BB1EA2D8DC0057F97C /* Podfile */; };
-		303183C21EA2E3540057F97C /* ChartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303183C11EA2E3540057F97C /* ChartController.swift */; };
+		30BAC6E521FD45ED00C807A0 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BAC6E421FD45ED00C807A0 /* DataFetcher.swift */; };
+		30BAC6E621FD575500C807A0 /* DataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BAC6E421FD45ED00C807A0 /* DataFetcher.swift */; };
 		FED855824EEB096A517B5BF6 /* Pods_Downward_Spiral_ChartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297364AB2C135487137A89A2 /* Pods_Downward_Spiral_ChartTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +50,7 @@
 		303183B31EA2BCDC0057F97C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		303183BB1EA2D8DC0057F97C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		303183BD1EA2DA810057F97C /* Downward Spiral Chart-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Downward Spiral Chart-Bridging-Header.h"; sourceTree = "<group>"; };
-		303183C11EA2E3540057F97C /* ChartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartController.swift; sourceTree = "<group>"; };
+		30BAC6E421FD45ED00C807A0 /* DataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcher.swift; sourceTree = "<group>"; };
 		513925DF9CD66D605793B082 /* Pods-Downward Spiral Chart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Downward Spiral Chart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart.debug.xcconfig"; sourceTree = "<group>"; };
 		7868DB6F6FF89B33B25047FA /* Pods_Downward_Spiral_Chart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Downward_Spiral_Chart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5A22D34F2CC757FB3EDBE9 /* Pods-Downward Spiral ChartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Downward Spiral ChartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,8 +104,8 @@
 			children = (
 				303183951EA2A0A80057F97C /* AppDelegate.swift */,
 				303183971EA2A0A80057F97C /* ViewController.swift */,
-				303183C11EA2E3540057F97C /* ChartController.swift */,
 				303183A91EA2A2270057F97C /* DownwardSpiral.swift */,
+				30BAC6E421FD45ED00C807A0 /* DataFetcher.swift */,
 				303183A71EA2A19C0057F97C /* DownwardSpiral.json */,
 				303183991EA2A0A80057F97C /* Main.storyboard */,
 				3031839C1EA2A0A80057F97C /* Assets.xcassets */,
@@ -156,7 +157,6 @@
 				3031838F1EA2A0A80057F97C /* Frameworks */,
 				303183901EA2A0A80057F97C /* Resources */,
 				9D64E7C5E9A01061A48E56AE /* [CP] Embed Pods Frameworks */,
-				33054789415371DEE4EA51C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,8 +175,6 @@
 				303183AB1EA2BCDC0057F97C /* Sources */,
 				303183AC1EA2BCDC0057F97C /* Frameworks */,
 				303183AD1EA2BCDC0057F97C /* Resources */,
-				52C2C866A00AEBFDB57B6EE1 /* [CP] Embed Pods Frameworks */,
-				7A027661CE020EDC160D5E4E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,64 +251,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		33054789415371DEE4EA51C7 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4E2504463D77113968AF9CDF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Downward Spiral ChartTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		52C2C866A00AEBFDB57B6EE1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A027661CE020EDC160D5E4E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral ChartTests/Pods-Downward Spiral ChartTests-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8DFDF79174D6EF7053F3B84E /* [CP] Check Pods Manifest.lock */ = {
@@ -319,13 +275,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Downward Spiral Chart-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9D64E7C5E9A01061A48E56AE /* [CP] Embed Pods Frameworks */ = {
@@ -334,9 +293,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Downward Spiral Chart/Pods-Downward Spiral Chart-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TEAChart/TEAChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TEAChart.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -350,9 +312,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BAC6E521FD45ED00C807A0 /* DataFetcher.swift in Sources */,
 				303183AA1EA2A2270057F97C /* DownwardSpiral.swift in Sources */,
 				303183981EA2A0A80057F97C /* ViewController.swift in Sources */,
-				303183C21EA2E3540057F97C /* ChartController.swift in Sources */,
 				303183961EA2A0A80057F97C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BAC6E621FD575500C807A0 /* DataFetcher.swift in Sources */,
 				303183B91EA2BD0A0057F97C /* DownwardSpiral.swift in Sources */,
 				303183B21EA2BCDC0057F97C /* Downward_Spiral_ChartTests.swift in Sources */,
 			);
