@@ -15,7 +15,7 @@ final class ViewController: UIViewController {
     fileprivate var spiralFetcher: DataFetcher!
     fileprivate var spirals: [DownwardSpiral]! {
         didSet {
-            chartView.data = spirals.map( { $0.start ?? 0 } )
+            chartView.data = spirals.map( { $0.ftp ?? 0 } )
         }
     }
     
